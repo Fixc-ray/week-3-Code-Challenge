@@ -20,16 +20,18 @@ p{
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 20px;
+ 
 }
 .film{
   margin-left: 20px;
   width: 400px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  border: white;
+  border: whitesmoke solid;
 }
 #movie-list img{
   width: 200px;
