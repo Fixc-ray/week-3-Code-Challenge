@@ -1,4 +1,4 @@
-const movie = "http://localhost:3000/films";
+const movie = "https://backend-yp5k.vercel.app/films";
 
 fetch(movie)
   .then((res) => res.json())
