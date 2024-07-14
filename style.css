@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  color: black;
+}
+#movie-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.film{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#movie-list img{
+  width: 200px;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
