@@ -1,18 +1,35 @@
-h1 {
-  text-align: center;
-  color: black;
+body{
+  background-color: #121212;
 }
+h2 {
+  text-align: center;
+  color: gold;
+  text-transform: uppercase;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+p{
+  color: white;
+  text-align: center;
+}
+
 #movie-list{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 .film{
+  margin-left: 20px;
   width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  border: white;
 }
 #movie-list img{
   width: 200px;
