@@ -13,7 +13,7 @@ Flatdango is a simple and interactive web application that allows users to brows
 
 1. Clone the repository:
     ```sh
-    git clone <repository_url>
+    git clone   https://github.com/Fixc-ray/week-3-Code-Challenge.git
     ```
 
 2. Navigate into the project directory:
