@@ -16,25 +16,28 @@ p{
 }
 
 #movie-list{
-  display: flex;
+  display: block;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 20px;
+  border: white solid ;
+  width: 450px;
  
 }
 .film{
+  margin-top: 10px;
   margin-left: 20px;
   width: 400px;
   padding-top: 10px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   border: whitesmoke solid;
 }
 #movie-list img{
-  width: 200px;
+  width: 250px;
+  height: 250px;
 }
 form{
   display: flex;

@@ -22,29 +22,27 @@ function createFilm(film) {
 
   divCard.className = "film";
 
-  const html = `
+  const html = `<h2>${title}</h2>`;
+
+  divCard.addEventListener("click", pulldata);
+
+  function pulldata(images) {
+    const content = document.createElement('div')
+
+    const html = `
     <img src="${poster}" alt="">
-    <p>${id}</p>
-    <h2>${title}</h2>
     <p>${description}</p>
     <p>Movie will show at ${showtime}</p>
     <p>Maximum Capacity ${capacity} people</p>
     <p>Movie will run for ${runtime} minutes</p>
     <p>Available Tickets: <span id="tickets-${id}">${availableTickets} </span></p>
-    <button id="Buy-${id}" ${availableTickets === 0 ? "disabled" : ""}>${
-    availableTickets === 0 ? "Sold Out" : "Buy Ticket"
-  }</button>`;
+    <button id="Buy-${id}">${
+      availableTickets === 0 ? "Sold Out" : "Buy Ticket"
+    }</button>`;
 
-
-  const list = document.getElementById("side-list")
-  const sidebar = `<h2>${title}</h2>`
-  const sideDiv = document.createElement("div")
-
-  sideDiv, (innerHTML = sidebar);
-  list.appendChild(sideDiv);
+    divCard.innerHTML = html;
+  }
 
   divCard.innerHTML = html;
   wrapper.appendChild(divCard);
-
-
 }
