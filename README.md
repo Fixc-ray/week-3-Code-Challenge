@@ -56,4 +56,3 @@ Flatdango is a simple and interactive web application that allows users to brows
 This project is licensed under the MIT License.
 
 ## Deployed Code
-https://week-3-code-challenge-silk.vercel.app/

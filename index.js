@@ -1,4 +1,4 @@
-const movie = "http://localhost:3000/films";
+const movie = "https://backend-livid-delta.vercel.app/films";
 
 fetch(movie)
   .then((res) => res.json())
@@ -18,7 +18,6 @@ function createFilm(film) {
   const wrapper = document.getElementById("movie-list");
   const divCard = document.createElement("div");
   const availableTickets = capacity - tickets_sold;
-  const button = document.getElementById("Buy-${id}");
 
   divCard.className = "film";
 
@@ -26,11 +25,13 @@ function createFilm(film) {
 
   divCard.addEventListener("click", pulldata);
 
-  function pulldata(images) {
+  function pulldata() {
     const content = document.createElement('div')
+    content.style.border = "white"
 
     const html = `
     <img src="${poster}" alt="">
+    <h2>${title}</h2>
     <p>${description}</p>
     <p>Movie will show at ${showtime}</p>
     <p>Maximum Capacity ${capacity} people</p>

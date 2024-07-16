@@ -10,6 +10,15 @@ h1{
   color: white;
   text-align: center;
 }
+h3{
+  color: antiquewhite;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: overline underline;
+}
+h3:hover{
+  color: gold;
+}
 p{
   color: white;
   text-align: center;
@@ -21,7 +30,7 @@ p{
   flex-wrap: wrap;
   border: white solid ;
   width: 450px;
- 
+  margin-top: 20px;
 }
 .film{
   margin-top: 10px;
