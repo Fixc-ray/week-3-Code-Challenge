@@ -43,6 +43,8 @@ p{
   align-items: center;
   margin-bottom: 2px;
   border: whitesmoke solid;
+  cursor: pointer;
+
 }
 #movie-list img{
   width: 250px;
