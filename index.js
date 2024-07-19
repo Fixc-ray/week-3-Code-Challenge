@@ -24,10 +24,10 @@ function createFilm(film) {
   const html = `<h2>${title}</h2>`;
 
   divCard.addEventListener("click", pulldata);
+  divCard.addEventListener("pointerleave", hideData)
 
   function pulldata() {
     const content = document.createElement('div')
-    content.style.border = "white"
 
     const html = `
     <img src="${poster}" alt="">
@@ -43,6 +43,10 @@ function createFilm(film) {
 
     divCard.innerHTML = html;
   }
+  function hideData() {
+    divCard.innerHTML = html
+  }
+  
 
   divCard.innerHTML = html;
   wrapper.appendChild(divCard);
