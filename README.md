@@ -1,5 +1,3 @@
-# Flatdango
-Flatdango is an application that allows users to purchase movie tickets from the theater. This project fetches data from a local JSON server and displays movie details, a list of movies, and allows users to purchase tickets.
 ## Introduction
 
 Flatdango is a simple and interactive web application that allows users to browse and purchase movie tickets. The app displays a list of movies and their details fetched from a local JSON server. Users can view movie details and buy tickets, with the number of available tickets decreasing as purchases are made.
@@ -20,22 +18,14 @@ Flatdango is a simple and interactive web application that allows users to brows
     ```sh
     cd flatdango
     ```
-
-3. Install the necessary packages:
-    ```sh
-    npm install json-server
-    ```
-
-4. Start the JSON server:
-    ```sh
-    npx json-server --watch db.json
-    ```
+  ```
 
 5. Open `index.html` in your browser to view the application.
 
 ## Usage
 
-1. When the page loads, the details of the first movie are displayed, including its poster, title, runtime, showtime, and available tickets.
+1. When the page loads, a list of movies is displayed on the left side of the screen.
+2. When you click on a movie title, it displays the movie content including (Movie poster, runtime, number of tickets available,)
 2. Users can buy tickets by clicking the "Buy Ticket" button. The number of available tickets will decrease accordingly. If the movie is sold out, the button will be disabled and display "Sold Out".
 
 ## Core Features
