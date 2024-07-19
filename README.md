@@ -1,3 +1,4 @@
+# Wk3 Code Challenge
 ## Introduction
 
 Flatdango is a simple and interactive web application that allows users to browse and purchase movie tickets. The app displays a list of movies and their details fetched from a local JSON server. Users can view movie details and buy tickets, with the number of available tickets decreasing as purchases are made.
@@ -13,16 +14,15 @@ Flatdango is a simple and interactive web application that allows users to brows
     ```sh
     git clone   https://github.com/Fixc-ray/week-3-Code-Challenge.git
     ```
-
 2. Navigate into the project directory:
-    ```sh
+    ```
     cd flatdango
     ```
-  ```
+ 
+3. Open `index.html` in your browser to view the application.
 
-5. Open `index.html` in your browser to view the application.
 
-## Usage
+## usage
 
 1. When the page loads, a list of movies is displayed on the left side of the screen.
 2. When you click on a movie title, it displays the movie content including (Movie poster, runtime, number of tickets available,)
